@@ -20,7 +20,7 @@ The structure of the classes are as follows:
 
 LB1D is a child class of LB containing all necessary attributes of LB. DiffusionExample.cxx uses LB1D objects to perform simple diffusion of a sine wave profile.
 
-	### Files
+	Files
 		-LB.h -> Main header file defining all classes
 		-LB1D.cxx -> All methods of LB1D class
 		-DiffusionExample.cxx -> Example simulation using LB1D objects.
