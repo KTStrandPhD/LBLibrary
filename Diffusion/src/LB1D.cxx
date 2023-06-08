@@ -63,6 +63,7 @@ void LB1D::Collision() {
 
 //Function to perform each iteration step
 void LB1D::Iteration() {
+
   for (int i = 0; i < xdim; i++) {
     rho[i] = 0;
     for (int a = 0; a < vdims; a++) {
@@ -78,6 +79,7 @@ void LB1D::Iteration() {
   //This is only for the density at the moment.
   //I'll abstract this for much more later
 void LB1D::PrintData(std::string fileName) {
+
   std::ofstream outFile(fileName);
 
   for (int i = 0; i < xdim; i++) {
